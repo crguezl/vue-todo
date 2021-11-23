@@ -16,4 +16,4 @@
   * [ ] Show a line through the todo text
 * [ ] Add a button to delete a todo
 * [ ] Add a button to mark all todos as done
-* [ ] Read the full guide art https://vuejs.org/v2/guide/
+* [ ] Read the full guide at https://vuejs.org/v2/guide/
