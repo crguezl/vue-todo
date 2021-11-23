@@ -17,3 +17,7 @@
 * [ ] Add a button to delete a todo
 * [ ] Add a button to mark all todos as done
 * [ ] Read the full guide at https://vuejs.org/v2/guide/
+
+## Observations
+
+When I tried wit the `file:// ` protocol and also `http://0.0.0.0:8080/index.html` it worked but the link between data and view failed when using the `localhost:8080` address
