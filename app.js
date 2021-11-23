@@ -16,6 +16,9 @@ const app = new Vue({
             console.log("form submitted! "+this.newTodo);
             this.todos.push(new Todo({ title: this.newTodo, done: false}));
             console.log(this.todos.map(x => x.title))
+            console.log(this.todos.map(x => x.done))
+
+            this.newTodo = '';
         }
     }
 })

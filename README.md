@@ -12,6 +12,7 @@
 * [ x ] Create an array property on our data for todos
 * [ x] Push the new todo into the todos array, with done: false
 * [ x ] Show the todos in a list
+* [ ] Clear out the form
 * [ ] Check done on a todo to mark it as done
   * [ ] Show a line through the todo text
 * [ ] Add a button to delete a todo

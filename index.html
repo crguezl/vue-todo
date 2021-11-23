@@ -19,7 +19,11 @@
         </form>
 
         <ul>
-            <li v-for="todo in todos">{{ todo.title }}</li>
+            <li v-for="todo in todos">
+                <input type="checkbox" v-model="todo.done">
+                <!-- See https://jsfiddle.net/davidnotplay/5vdczjgt/ -->
+                <span :class="{done : todo.done}">{{ todo.title }}</span>
+            </li>
         </ul>
 
     </main>
